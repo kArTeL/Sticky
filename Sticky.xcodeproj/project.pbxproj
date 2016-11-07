@@ -10,6 +10,13 @@
 		CD0A0E421DD0F756008B60AE /* Sticky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0A0E381DD0F756008B60AE /* Sticky.framework */; };
 		CD0A0E471DD0F756008B60AE /* StickyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A0E461DD0F756008B60AE /* StickyTests.swift */; };
 		CD0A0E491DD0F756008B60AE /* Sticky.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A0E3B1DD0F756008B60AE /* Sticky.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD0A0E591DD0F76E008B60AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A0E581DD0F76E008B60AE /* AppDelegate.swift */; };
+		CD0A0E5B1DD0F76E008B60AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A0E5A1DD0F76E008B60AE /* ViewController.swift */; };
+		CD0A0E5E1DD0F76E008B60AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0A0E5C1DD0F76E008B60AE /* Main.storyboard */; };
+		CD0A0E601DD0F76E008B60AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0A0E5F1DD0F76E008B60AE /* Assets.xcassets */; };
+		CD0A0E631DD0F76E008B60AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0A0E611DD0F76E008B60AE /* LaunchScreen.storyboard */; };
+		CD0A0E6C1DD0F7B4008B60AE /* Stickeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A0E691DD0F7B4008B60AE /* Stickeable.swift */; };
+		CD0A0E6D1DD0F7B4008B60AE /* StickyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A0E6B1DD0F7B4008B60AE /* StickyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,15 @@
 		CD0A0E411DD0F756008B60AE /* StickyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0A0E461DD0F756008B60AE /* StickyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyTests.swift; sourceTree = "<group>"; };
 		CD0A0E481DD0F756008B60AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0A0E561DD0F76E008B60AE /* StickySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0A0E581DD0F76E008B60AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD0A0E5A1DD0F76E008B60AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD0A0E5D1DD0F76E008B60AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD0A0E5F1DD0F76E008B60AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD0A0E621DD0F76E008B60AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD0A0E641DD0F76E008B60AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0A0E691DD0F7B4008B60AE /* Stickeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stickeable.swift; sourceTree = "<group>"; };
+		CD0A0E6B1DD0F7B4008B60AE /* StickyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD0A0E531DD0F76E008B60AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				CD0A0E3A1DD0F756008B60AE /* Sticky */,
 				CD0A0E451DD0F756008B60AE /* StickyTests */,
+				CD0A0E571DD0F76E008B60AE /* StickySample */,
 				CD0A0E391DD0F756008B60AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				CD0A0E381DD0F756008B60AE /* Sticky.framework */,
 				CD0A0E411DD0F756008B60AE /* StickyTests.xctest */,
+				CD0A0E561DD0F76E008B60AE /* StickySample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +96,8 @@
 		CD0A0E3A1DD0F756008B60AE /* Sticky */ = {
 			isa = PBXGroup;
 			children = (
+				CD0A0E681DD0F7B4008B60AE /* Protocol */,
+				CD0A0E6A1DD0F7B4008B60AE /* Views */,
 				CD0A0E3B1DD0F756008B60AE /* Sticky.h */,
 				CD0A0E3C1DD0F756008B60AE /* Info.plist */,
 			);
@@ -84,6 +111,35 @@
 				CD0A0E481DD0F756008B60AE /* Info.plist */,
 			);
 			path = StickyTests;
+			sourceTree = "<group>";
+		};
+		CD0A0E571DD0F76E008B60AE /* StickySample */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A0E581DD0F76E008B60AE /* AppDelegate.swift */,
+				CD0A0E5A1DD0F76E008B60AE /* ViewController.swift */,
+				CD0A0E5C1DD0F76E008B60AE /* Main.storyboard */,
+				CD0A0E5F1DD0F76E008B60AE /* Assets.xcassets */,
+				CD0A0E611DD0F76E008B60AE /* LaunchScreen.storyboard */,
+				CD0A0E641DD0F76E008B60AE /* Info.plist */,
+			);
+			path = StickySample;
+			sourceTree = "<group>";
+		};
+		CD0A0E681DD0F7B4008B60AE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A0E691DD0F7B4008B60AE /* Stickeable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CD0A0E6A1DD0F7B4008B60AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A0E6B1DD0F7B4008B60AE /* StickyView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +192,23 @@
 			productReference = CD0A0E411DD0F756008B60AE /* StickyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CD0A0E551DD0F76E008B60AE /* StickySample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0A0E651DD0F76E008B60AE /* Build configuration list for PBXNativeTarget "StickySample" */;
+			buildPhases = (
+				CD0A0E521DD0F76E008B60AE /* Sources */,
+				CD0A0E531DD0F76E008B60AE /* Frameworks */,
+				CD0A0E541DD0F76E008B60AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickySample;
+			productName = StickySample;
+			productReference = CD0A0E561DD0F76E008B60AE /* StickySample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +227,10 @@
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
+					CD0A0E551DD0F76E008B60AE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = CD0A0E321DD0F756008B60AE /* Build configuration list for PBXProject "Sticky" */;
@@ -162,6 +239,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CD0A0E2E1DD0F756008B60AE;
 			productRefGroup = CD0A0E391DD0F756008B60AE /* Products */;
@@ -170,6 +248,7 @@
 			targets = (
 				CD0A0E371DD0F756008B60AE /* Sticky */,
 				CD0A0E401DD0F756008B60AE /* StickyTests */,
+				CD0A0E551DD0F76E008B60AE /* StickySample */,
 			);
 		};
 /* End PBXProject section */
@@ -189,6 +268,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CD0A0E541DD0F76E008B60AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A0E631DD0F76E008B60AE /* LaunchScreen.storyboard in Resources */,
+				CD0A0E601DD0F76E008B60AE /* Assets.xcassets in Resources */,
+				CD0A0E5E1DD0F76E008B60AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -196,6 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0A0E6C1DD0F7B4008B60AE /* Stickeable.swift in Sources */,
+				CD0A0E6D1DD0F7B4008B60AE /* StickyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +295,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD0A0E471DD0F756008B60AE /* StickyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0A0E521DD0F76E008B60AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A0E5B1DD0F76E008B60AE /* ViewController.swift in Sources */,
+				CD0A0E591DD0F76E008B60AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +316,25 @@
 			targetProxy = CD0A0E431DD0F756008B60AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD0A0E5C1DD0F76E008B60AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0A0E5D1DD0F76E008B60AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD0A0E611DD0F76E008B60AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0A0E621DD0F76E008B60AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CD0A0E4A1DD0F756008B60AE /* Debug */ = {
@@ -356,6 +475,7 @@
 		CD0A0E501DD0F756008B60AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = StickyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kartel.StickyTests;
@@ -367,9 +487,34 @@
 		CD0A0E511DD0F756008B60AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = StickyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kartel.StickyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CD0A0E661DD0F76E008B60AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StickySample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kartel.StickySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD0A0E671DD0F76E008B60AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StickySample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kartel.StickySample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -400,6 +545,14 @@
 			buildConfigurations = (
 				CD0A0E501DD0F756008B60AE /* Debug */,
 				CD0A0E511DD0F756008B60AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD0A0E651DD0F76E008B60AE /* Build configuration list for PBXNativeTarget "StickySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0A0E661DD0F76E008B60AE /* Debug */,
+				CD0A0E671DD0F76E008B60AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
