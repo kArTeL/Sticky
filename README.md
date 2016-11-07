@@ -1,2 +1,2 @@
 # Sticky
-Sticky project
+Stick your views above the keyboard
