@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import AssociatedValues
 
 
 //Keyboard view protocol
@@ -18,17 +17,8 @@ public  protocol Stickeable   {
 
 
 
-extension Stickeable where Self:UIView
+public extension Stickeable where Self:UIView
 {
-    public var originalPosition:CGPoint {
-        get {
-            return getAssociatedValue(key: "originalPosition", object: self, initialValue:{return CGPoint(x:0,y:0)})
-        }
-        set(newValue) {
-            set(associatedValue:self.frame.origin, key: "originalPosition", object: self)
-        }
-    }
-    
     var stickInKeyboardEnabled:Bool   {
         get {
             return false
@@ -41,9 +31,19 @@ extension Stickeable where Self:UIView
             else {
                 NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIKeyboardWillShow, object: nil)
             }
-           
+            
         }
     }
- 
+
+    var originalPosition:CGPoint {
+        get {
+            return getAssociatedValue(key: "originalPosition", object: self, initialValue:{return CGPoint(x:0,y:0)})
+        }
+        set(newValue) {
+            set(associatedValue:self.frame.origin, key: "originalPosition", object: self)
+        }
+    }
+    
+    
 }
 

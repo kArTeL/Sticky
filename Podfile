@@ -1,5 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'StickySample' do
+    pod 'Sticky', :path => './'
+end
+
 target 'StickyTests' do
-    use_frameworks!
-    pod 'Quick', :git => 'https://github.com/Quick/Quick.git' , :branch => 'swift-3.0'
-    pod 'Nimble', :git => 'https://github.com/Quick/Nimble.git', :commit => 'db706fc'
+    pod 'Quick','~> 0.10.0'
+    pod 'Nimble','~> 5.0'
 end
