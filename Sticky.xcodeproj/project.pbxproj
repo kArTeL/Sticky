@@ -108,12 +108,12 @@
 		CD0A0E2E1DD0F756008B60AE = {
 			isa = PBXGroup;
 			children = (
-				CD0A0E3A1DD0F756008B60AE /* Sticky */,
-				CD0A0E451DD0F756008B60AE /* StickyTests */,
-				CD0A0E571DD0F76E008B60AE /* StickySample */,
-				CD0A0E391DD0F756008B60AE /* Products */,
-				982F1727FBD37AA77BC1CF1D /* Pods */,
 				219A3B984018A6D276C98B7F /* Frameworks */,
+				982F1727FBD37AA77BC1CF1D /* Pods */,
+				CD0A0E391DD0F756008B60AE /* Products */,
+				CD0A0E3A1DD0F756008B60AE /* Sticky */,
+				CD0A0E571DD0F76E008B60AE /* StickySample */,
+				CD0A0E451DD0F756008B60AE /* StickyTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,8 +133,8 @@
 				CD0A0E6E1DD0FD6A008B60AE /* AssociatedObjectHelper */,
 				CD0A0E681DD0F7B4008B60AE /* Protocol */,
 				CD0A0E6A1DD0F7B4008B60AE /* Views */,
-				CD0A0E3B1DD0F756008B60AE /* Sticky.h */,
 				CD0A0E3C1DD0F756008B60AE /* Info.plist */,
+				CD0A0E3B1DD0F756008B60AE /* Sticky.h */,
 			);
 			path = Sticky;
 			sourceTree = "<group>";
@@ -142,8 +142,8 @@
 		CD0A0E451DD0F756008B60AE /* StickyTests */ = {
 			isa = PBXGroup;
 			children = (
-				CD0A0E461DD0F756008B60AE /* StickyTests.swift */,
 				CD0A0E481DD0F756008B60AE /* Info.plist */,
+				CD0A0E461DD0F756008B60AE /* StickyTests.swift */,
 			);
 			path = StickyTests;
 			sourceTree = "<group>";
@@ -152,11 +152,11 @@
 			isa = PBXGroup;
 			children = (
 				CD0A0E581DD0F76E008B60AE /* AppDelegate.swift */,
-				CD0A0E5A1DD0F76E008B60AE /* ViewController.swift */,
-				CD0A0E5C1DD0F76E008B60AE /* Main.storyboard */,
 				CD0A0E5F1DD0F76E008B60AE /* Assets.xcassets */,
-				CD0A0E611DD0F76E008B60AE /* LaunchScreen.storyboard */,
 				CD0A0E641DD0F76E008B60AE /* Info.plist */,
+				CD0A0E611DD0F76E008B60AE /* LaunchScreen.storyboard */,
+				CD0A0E5C1DD0F76E008B60AE /* Main.storyboard */,
+				CD0A0E5A1DD0F76E008B60AE /* ViewController.swift */,
 			);
 			path = StickySample;
 			sourceTree = "<group>";
@@ -183,6 +183,7 @@
 				CD0A0E6F1DD0FD8E008B60AE /* AssociatedObject.swift */,
 			);
 			name = AssociatedObjectHelper;
+			path = AssociatedObjectHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -467,6 +468,7 @@
 				CD0A0E5D1DD0F76E008B60AE /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		CD0A0E611DD0F76E008B60AE /* LaunchScreen.storyboard */ = {
@@ -475,6 +477,7 @@
 				CD0A0E621DD0F76E008B60AE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

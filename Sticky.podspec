@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/kArTeL/Sticky", :tag => s.version }
+  s.source       = { :git => "https://github.com/kArTeL/Sticky.git", :tag => s.version }
   s.source_files  = "Sticky/", "Sticky/**/*.{h,m,swift}"
 
   s.requires_arc = true
