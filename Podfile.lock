@@ -1,5 +1,5 @@
 PODS:
-  - Nimble (5.1.1)
+  - Nimble (5.0.0)
   - Quick (0.10.0)
   - Sticky (0.0.1)
 
@@ -13,10 +13,10 @@ EXTERNAL SOURCES:
     :path: ./
 
 SPEC CHECKSUMS:
-  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
-  Sticky: f443e88615546c1dd22d8abf1ea53a52f3b9541b
+  Sticky: 7121ed2b7b82a08c9b010056928191911460f527
 
 PODFILE CHECKSUM: b8b80275c307640a3b2b8eaf32da067a97b6192f
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.0.1
